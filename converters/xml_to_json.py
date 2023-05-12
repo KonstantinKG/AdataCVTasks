@@ -21,8 +21,6 @@ def parseType(value):
         return int(value)
     elif try_parse_type(float, value):
         return float(value)
-    elif try_parse_type(bool, value):
-        return bool(value)
     else:
         return value
     
