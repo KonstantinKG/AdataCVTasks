@@ -36,8 +36,7 @@ while True:
       ]
    )
    pageLoader = PageLoader(
-      delay=0.7,
-      threshold=1.3
+      delay=1,
    )
    search = Search(
       options=searchOptions,
@@ -46,10 +45,10 @@ while True:
    )
    search.run()
 
-   pageNumber += 1
-   if pageNumber >= maxPages:
+   if (search.isFailed()):
       break
 
+   pageNumber += 1
 
 
 def toExcel(data:dict):

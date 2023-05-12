@@ -7,7 +7,6 @@ class BaseSelector:
    def get(self):
       return self.__selector
 
-
 class Xpath(BaseSelector):
    def get(self):
       return self.__convert_xpath_to_selector()
