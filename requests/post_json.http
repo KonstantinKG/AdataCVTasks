@@ -1,0 +1,8 @@
+@host=http://0.0.0.0:8000
+
+POST {{host}}/converters/libs/json_to_xml HTTP/1.1
+Content-Type: application/json
+
+{
+   "text": "{\"root\": {\"thousand\": \"rain\", \"shells\": \"paragraph\", \"poet\": \"farther\", \"shine\": {\"line\": \"-1265860017\", \"yes\": \"chosen\", \"everywhere\": \"1336309099\", \"secret\": \"-1166799671.8364677\", \"relationship\": {\"leather\": \"swung\", \"effect\": \"distance\", \"doubt\": \"war\", \"spin\": \"planning\", \"plant\": \"85188892.10432577\", \"in\": \"solid\"}, \"among\": \"1736220330.222403\"}, \"pale\": \"-1230047760.1221113\", \"pond\": \"1990243112\"}}"
+}

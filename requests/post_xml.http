@@ -1,0 +1,8 @@
+@host=http://0.0.0.0:8000
+
+POST {{host}}/converters/libs/xml_to_json HTTP/1.1
+Content-Type: application/json
+
+{
+   "text": "<?xml version='1.0' encoding='UTF-8'?><root><thousand>True</thousand><shells>paragraph</shells><poet>farther</poet><shine><line>-1265860017</line><yes>chosen</yes><everywhere>1336309099</everywhere><secret>-1166799671.8364677</secret><relationship><leather>swung</leather><effect>distance</effect><doubt>war</doubt><spin>planning</spin><plant>85188892.10432577</plant><in>solid</in></relationship><among>1736220330.222403</among></shine><pale>-1230047760.1221113</pale><pond>1990243112</pond></root>"
+}
